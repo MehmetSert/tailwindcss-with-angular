@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.btn-purple {
+  @apply bg-purple-700 text-white p-4
+  hover:bg-purple-600;
+}
