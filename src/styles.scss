@@ -3,8 +3,66 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+  padding: 30px;
+  background-color: #EFF0F3;
+}
+
+hr {
+  margin: 30px 0;
+}
 
 .btn-purple {
   @apply bg-purple-700 text-white p-4
   hover:bg-purple-600;
+}
+
+.btn-blue {
+  @apply
+  bg-blue-600
+  text-white text-sm
+  px-4 py-2
+  rounded-md
+  hover:bg-blue-700
+}
+
+.card-item {
+  @apply
+  flex flex-col
+  bg-white
+  p-3
+  rounded-2xl
+  shadow-md
+  sm:w-6/12
+  md:w-6/12
+  lg:w-5/12
+  xl:w-4/12
+  2xl:w-3/12
+}
+
+.card-image {
+  img {
+    @apply
+    rounded-2xl
+  }
+}
+
+.card-content {
+  @apply
+  flex flex-col items-start
+  p-4
+}
+
+.card-title {
+  @apply
+  font-medium text-2xl
+  text-gray-700
+  mt-2 mb-0
+}
+
+.card-description {
+  @apply
+  font-normal text-sm
+  text-gray-500
+  mt-3 mb-6
 }

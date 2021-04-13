@@ -1,5 +1,9 @@
 # TailwindcssWithAngular
 
+Angular'da Tailwind CSS kullanımını adım adım anlattığım makaleye ulaşmak için: [Kodumunblogu](https://kodumunblogu.net/detail/tailwind-cssi-angular-ile-kullanmak)
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
 ## Development server
