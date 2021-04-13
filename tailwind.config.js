@@ -1,6 +1,7 @@
 module.exports = {
   prefix: '',
   purge: {
+    enabled: process.env.ENABLE_PURGE === 'yes',
     content: [
       './src/**/*.{html,ts}',
     ]
